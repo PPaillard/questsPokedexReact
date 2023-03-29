@@ -1,6 +1,10 @@
 import PropTypes from "prop-types";
+import { useEffect } from "react";
 
 const PokemonCard = ({ pokemon }) => {
+  /*if (pokemon.name === "pikachu") {
+    alert("pika pikachu !!!");
+  }*/
   return (
     <figure>
       {pokemon.imgSrc ? (
